@@ -29,7 +29,7 @@ const ErrorMsg = ({ message, onRetry }) => {
             ¡Oops! Algo salió mal
           </h3>
           
-          <p className="text-red-300 mb-8 leading-relaxed">
+          <p className="mb-8 leading-relaxed text-base font-semibold text-red-700 drop-shadow" style={{ wordBreak: 'break-word' }}>
             {message || 'Error al cargar los datos'}
           </p>
           
